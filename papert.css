@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+  margin: 2em;
+}
+
+#content {
+  padding-left: 1em;
+  /* padding: 1em; */
+  float: left;
+}
+
+#code {
+    width: 100%;
+    height: 500px;
+    max-width: 300px;
+    max-height: 500px;
+    border: 3px solid #cccccc;
+    font-family: monospace;
+}
+
+#sketchpad {
+    float: left;
+    border: 3px solid #cccccc;
+}
+
+#textOutput {
+	position: absolute;
+	font-size: 20px;
+	background-color: transparent;
+}
+
+#turtle {
+	margin: 10px 0 10px 0;
+  height: 20px;
+  width: 20px;
+	position: absolute;
+	font-size: 20px;
+	background-color: transparent;
+}
